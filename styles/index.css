@@ -61,6 +61,14 @@ h5 {
   cursor: pointer;
 }
 
+.btn:hover {
+    background-color: var(--neutral-very-dark-blue);
+}
+
+.btn > img {
+    margin: 0 .5rem 0 0;
+}
+
 .container {
   display: flex;
   justify-items: center;
