@@ -28,12 +28,6 @@ h3 {
     font-size: 2rem;
 }
 
-h4 {
-    color: var(--neutral-dark-grayish-blue);
-    font-weight: 300;
-    letter-spacing: 3px;
-    font-size: .85rem;
-}
 
 h5 {
     color: var(--neutral-dark-grayish-blue);
@@ -48,6 +42,14 @@ h5 {
 
 .font2 {
   font-family: var(--font2);
+}
+
+
+.actual-price {
+  color: var(--primary-dark-cyan);
+  font-weight: bold;
+  letter-spacing: 3px;
+  font-size: 1.25rem;
 }
 
 .btn {
@@ -69,11 +71,14 @@ h5 {
     margin: 0 .5rem 0 0;
 }
 
+
+
 .container {
   display: flex;
   justify-items: center;
   align-items: center;
   padding: 2.5rem;
+  min-height: 100vh;
 }
 .img-desktop {
   display: none;
@@ -109,11 +114,15 @@ h5 {
   padding: 2rem;
 }
 
+.proudct-name {
+  font-size: 2rem;
+}
+
 @media screen and (min-width: 768px) {
   .img-desktop {
     display: block;
     width: 50%;
-    border-radius: 25px 0 0 25px;
+    border-radius: 15px 0 0 15px;
   }
 
   .img-mobile {
@@ -127,5 +136,9 @@ h5 {
   .product-container {
     flex-direction: row;
     width: 40rem;
+  }
+
+  .product-info {
+    width: 50%;
   }
 }
